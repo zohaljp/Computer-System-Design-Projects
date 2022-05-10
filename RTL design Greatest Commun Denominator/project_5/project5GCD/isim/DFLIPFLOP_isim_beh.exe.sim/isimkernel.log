@@ -1,0 +1,29 @@
+Command line:
+   DFLIPFLOP_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52248
+
+Thu Mar 10 23:23:12 2022
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150 Meg
+
+ Total Signals          : 17
+ Total Nets             : 24
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 108
+Total Line Count : 20
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5150 Meg
+
+Thu Mar 10 23:23:18 2022
+

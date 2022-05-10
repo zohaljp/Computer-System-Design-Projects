@@ -1,0 +1,3 @@
+verilog isim_temp "BehavioralALU_lab2.v"
+verilog isim_temp "behavioraltestbench.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

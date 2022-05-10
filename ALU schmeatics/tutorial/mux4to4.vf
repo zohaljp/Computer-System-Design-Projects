@@ -1,0 +1,111 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : mux4to4.vf
+// /___/   /\     Timestamp : 01/25/2022 19:21:54
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/elmal/tutorial/mux4to4.vf -w C:/Users/elmal/tutorial/mux4to4.sch
+//Design Name: mux4to4
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M4_1E_HXILINX_mux4to4 (O, D0, D1, D2, D3, E, S0, S1);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  E;
+   input  S0;
+   input  S1;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or E or S0 or S1)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S1,S0})
+        2'b00 : O <= D0;
+        2'b01 : O <= D1;
+        2'b10 : O <= D2;
+        2'b11 : O <= D3;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module mux4to4(A_mux, 
+               B_mux, 
+               C_mux, 
+               D_mux, 
+               enable, 
+               S_0, 
+               S_1, 
+               Y_out);
+
+    input [3:0] A_mux;
+    input [3:0] B_mux;
+    input [3:0] C_mux;
+    input [3:0] D_mux;
+    input [3:0] enable;
+    input S_0;
+    input S_1;
+   output [3:0] Y_out;
+   
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   M4_1E_HXILINX_mux4to4  XLXI_1 (.D0(A_mux[2]), 
+                                 .D1(B_mux[2]), 
+                                 .D2(C_mux[2]), 
+                                 .D3(D_mux[2]), 
+                                 .E(enable[2]), 
+                                 .S0(S_0), 
+                                 .S1(S_1), 
+                                 .O(Y_out[2]));
+   (* HU_SET = "XLXI_6_1" *) 
+   M4_1E_HXILINX_mux4to4  XLXI_6 (.D0(A_mux[3]), 
+                                 .D1(B_mux[3]), 
+                                 .D2(C_mux[3]), 
+                                 .D3(D_mux[3]), 
+                                 .E(enable[3]), 
+                                 .S0(S_0), 
+                                 .S1(S_1), 
+                                 .O(Y_out[3]));
+   (* HU_SET = "XLXI_7_2" *) 
+   M4_1E_HXILINX_mux4to4  XLXI_7 (.D0(A_mux[1]), 
+                                 .D1(B_mux[1]), 
+                                 .D2(C_mux[1]), 
+                                 .D3(D_mux[1]), 
+                                 .E(enable[1]), 
+                                 .S0(S_0), 
+                                 .S1(S_1), 
+                                 .O(Y_out[1]));
+   (* HU_SET = "XLXI_8_3" *) 
+   M4_1E_HXILINX_mux4to4  XLXI_8 (.D0(A_mux[0]), 
+                                 .D1(B_mux[0]), 
+                                 .D2(C_mux[0]), 
+                                 .D3(D_mux[0]), 
+                                 .E(enable[0]), 
+                                 .S0(S_0), 
+                                 .S1(S_1), 
+                                 .O(Y_out[0]));
+endmodule

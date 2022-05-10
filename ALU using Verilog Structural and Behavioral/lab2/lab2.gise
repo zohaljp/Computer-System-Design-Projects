@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name=".prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name=".stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name=".xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BehavioralALU_lab2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BehavioralALU_lab2_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Fulladder4bits_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="StructuraALU_lab2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="StructuraALU_lab2_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="adder4bit_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="behavioraltestbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="behavioraltestbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="behavioraltestbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="behavioraltestbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="inverter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="inverter_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="inverter_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="inverter_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux4_1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4_1_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux4_1testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4_1testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux4bitinput_4bitoutput_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux4bitinput_4bitoutput_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_21_beh_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_21_beh_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_21_beh_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_21_case_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_21_case_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_21_simple_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_21_simple_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_21_simple_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="structuralALU_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="structuralALU_testbench_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbenchmux4_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbenchmux4_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1644013478" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1644013478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644086401" xil_pn:in_ck="-2000040785679910455" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1644086401">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BehavioralALU_lab2.v"/>
+      <outfile xil_pn:name="Fulladder4bits.v"/>
+      <outfile xil_pn:name="StructuraALU_lab2.v"/>
+      <outfile xil_pn:name="adder4bit.v"/>
+      <outfile xil_pn:name="behavioraltestbench.v"/>
+      <outfile xil_pn:name="inverter.v"/>
+      <outfile xil_pn:name="inverter_testbench.v"/>
+      <outfile xil_pn:name="mux4_1.v"/>
+      <outfile xil_pn:name="mux4_1testbench.v"/>
+      <outfile xil_pn:name="mux4bitinput_4bitoutput.v"/>
+      <outfile xil_pn:name="mux_21_beh.v"/>
+      <outfile xil_pn:name="mux_21_beh_testbench.v"/>
+      <outfile xil_pn:name="mux_21_case.v"/>
+      <outfile xil_pn:name="mux_21_case_testbench.v"/>
+      <outfile xil_pn:name="mux_21_simple.v"/>
+      <outfile xil_pn:name="mux_21_simple_testbench.v"/>
+      <outfile xil_pn:name="structuralALU_testbench.v"/>
+      <outfile xil_pn:name="testbenchmux4.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1644086616" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7535969047481999500" xil_pn:start_ts="1644086616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644086616" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4348919918514561230" xil_pn:start_ts="1644086616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644013478" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7643819276453295499" xil_pn:start_ts="1644013478">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644086404" xil_pn:in_ck="-2000040785679910455" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1644086404">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BehavioralALU_lab2.v"/>
+      <outfile xil_pn:name="Fulladder4bits.v"/>
+      <outfile xil_pn:name="StructuraALU_lab2.v"/>
+      <outfile xil_pn:name="adder4bit.v"/>
+      <outfile xil_pn:name="behavioraltestbench.v"/>
+      <outfile xil_pn:name="inverter.v"/>
+      <outfile xil_pn:name="inverter_testbench.v"/>
+      <outfile xil_pn:name="mux4_1.v"/>
+      <outfile xil_pn:name="mux4_1testbench.v"/>
+      <outfile xil_pn:name="mux4bitinput_4bitoutput.v"/>
+      <outfile xil_pn:name="mux_21_beh.v"/>
+      <outfile xil_pn:name="mux_21_beh_testbench.v"/>
+      <outfile xil_pn:name="mux_21_case.v"/>
+      <outfile xil_pn:name="mux_21_case_testbench.v"/>
+      <outfile xil_pn:name="mux_21_simple.v"/>
+      <outfile xil_pn:name="mux_21_simple_testbench.v"/>
+      <outfile xil_pn:name="structuralALU_testbench.v"/>
+      <outfile xil_pn:name="testbenchmux4.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1644086619" xil_pn:in_ck="-2000040785679910455" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-156659495603024921" xil_pn:start_ts="1644086616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="behavioraltestbench_beh.prj"/>
+      <outfile xil_pn:name="behavioraltestbench_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1644086619" xil_pn:in_ck="4017906999597592333" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5464427937002376362" xil_pn:start_ts="1644086619">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="behavioraltestbench_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

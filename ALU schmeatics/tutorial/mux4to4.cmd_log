@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -refsym mux4to4 C:/Users/elmal/tutorial/mux4to4.sch C:/Users/elmal/tutorial/mux4to4.sym 

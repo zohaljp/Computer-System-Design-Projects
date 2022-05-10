@@ -1,0 +1,416 @@
+add instance fulladd4 1248 592 R0 -sn=1
+add instance m4_1e 1280 1136 R0 -sn=1
+add autowire 592 192 592 976 8 -sn=1
+add autowire 752 192 736 960 8 -sn=1
+select figure at 595 306 8 -branches -sn=1
+select figure at 595 306 8 -branches -all -sn=1
+set attr NA|XLXN_1|Name value A_in[3:0] -sn=1
+add iomarker 592 192 0 Unknown Unknown -sn=1
+select figure at 749 347 8 -branches -sn=1
+select figure at 749 347 8 -branches -all -sn=1
+set attr NA|XLXN_2|Name value B_in[3:0] -sn=1
+add iomarker 752 192 0 Unknown Unknown -sn=1
+select figure at 1285 1108 8 -branches -sn=1
+select figure at 1579 821 8 -branches -sn=1
+select figure at 1698 695 8 -branches -sn=1
+select figure at 1525 662 8 -branches -sn=1
+select figure at 1525 662 8 -branches -all -sn=1
+move instance at 1280 1136 to 1296 1184 R0 -keepConn -sn=1
+add instance fulladd4 1888 592 R0 -sn=1
+add autowire 592 384 1248 496 8 -sn=1
+add autowire 1248 560 752 576 8 -sn=1
+add autowire 1632 560 1296 768 8 -sn=1
+select figure at 1630 658 8 -branches -sn=1
+delete selection -sn=1
+add instance inv4 640 1312 R0 -sn=1
+select figure at 973 1397 8 -branches -sn=1
+select all in 609 970 973 1397 -branches -enclosed -sn=1
+select figure at 1103 1315 8 -branches -sn=1
+select all in 567 984 1103 1315 -branches -enclosed -sn=1
+select figure at 714 1089 8 -branches -sn=1
+delete selection -sn=1
+add instance inv4 688 1296 R0 -sn=1
+add bustap 592 928 688 928 -sn=1
+select figure at 697 1264 8 -branches -sn=1
+select figure at 604 933 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1096 1334 8 -branches -sn=1
+select all in 653 977 1096 1334 -branches -enclosed -sn=1
+select figure at 1068 1350 8 -branches -sn=1
+select figure at 970 1376 8 -branches -sn=1
+select all in 672 961 970 1376 -branches -enclosed -sn=1
+select figure at 819 1201 8 -branches -sn=1
+delete selection -sn=1
+add instance inv4 880 1264 R0 -sn=1
+select figure at 982 1115 8 -branches -sn=1
+select figure at 1178 1346 8 -branches -sn=1
+select all in 830 910 1178 1346 -branches -enclosed -sn=1
+select figure at 975 1101 8 -branches -sn=1
+select figure at 975 1101 8 -branches -all -sn=1
+BeginGroup
+add bustap 880 384 880 480 -sn=1
+add wire 880 480 880 1232 -sn=1
+name net at 880 856 1 A_in(3) -sn=1
+EndGroup
+undo
+BeginGroup
+add bustap 880 384 880 480 -sn=1
+add wire 880 480 880 1232 -sn=1
+name net at 880 856 1 A_in(3) -sn=1
+EndGroup
+undo
+add autowire 880 1040 592 1040 8 -sn=1
+add autowire 880 1104 672 1104 8 -sn=1
+add autowire 880 1168 736 1168 8 -sn=1
+BeginGroup
+add bustap 880 384 880 480 -sn=1
+add wire 880 480 880 1232 -sn=1
+name net at 880 856 1 A_in(3) -sn=1
+EndGroup
+BeginGroup
+add bustap 736 384 736 480 -sn=1
+add wire 736 480 736 1168 -sn=1
+name net at 736 824 1 A_in(2) -sn=1
+EndGroup
+BeginGroup
+add bustap 672 384 672 480 -sn=1
+add wire 672 480 672 1104 -sn=1
+name net at 672 792 1 A_in(1) -sn=1
+EndGroup
+select figure at 751 844 8 -branches -sn=1
+delete selection -sn=1
+undo
+select figure at 732 882 8 -branches -sn=1
+select figure at 833 1035 8 -branches -sn=1
+select figure at 753 851 8 -branches -sn=1
+select figure at 742 996 8 -branches -sn=1
+select figure at 744 959 8 -branches -sn=1
+select figure at 735 959 8 -branches -sn=1
+select figure at 751 956 8 -branches -sn=1
+select figure at 760 914 8 -branches -sn=1
+select figure at 751 882 8 -branches -sn=1
+select figure at 749 884 8 -branches -sn=1
+select figure at 756 877 8 -branches -sn=1
+select figure at 1222 1252 8 -branches -sn=1
+select all in 578 1001 1222 1252 -branches -enclosed -sn=1
+select figure at 1080 1098 8 -branches -sn=1
+delete selection -sn=1
+select figure at 847 1171 8 -branches -sn=1
+delete selection -sn=1
+select figure at 823 1103 8 -branches -sn=1
+delete selection -sn=1
+select figure at 802 1038 8 -branches -sn=1
+delete selection -sn=1
+select figure at 882 868 8 -branches -sn=1
+delete selection -sn=1
+select figure at 737 392 8 -branches -sn=1
+select figure at 672 417 8 -branches -sn=1
+delete selection -sn=1
+select figure at 739 408 8 -branches -sn=1
+delete selection -sn=1
+select figure at 872 406 8 -branches -sn=1
+delete selection -sn=1
+select figure at 595 980 8 -branches -sn=1
+move branchpt at 592 976 to 608 928 -keepConn -sn=1
+select all in 590 655 611 919 -branches -enclosed -sn=1
+select figure at 639 1015 8 -branches -sn=1
+select figure at 604 917 8 -branches -sn=1
+select figure at 604 928 8 -branches -sn=1
+move branchpt at 608 928 to 592 928 -keepConn -sn=1
+select figure at 693 800 8 -branches -sn=1
+select figure at 732 956 8 -branches -sn=1
+move branchpt at 736 960 to 752 960 -keepConn -sn=1
+move branchpt at 752 960 to 752 656 -keepConn -sn=1
+select figure at 597 924 8 -branches -sn=1
+move branchpt at 592 928 to 592 528 -keepConn -sn=1
+select figure at 753 655 8 -branches -sn=1
+move branchpt at 752 656 to 752 576 -keepConn -sn=1
+add instance inv4 272 784 R0 -sn=1
+select figure at 676 1026 8 -branches -sn=1
+select all in 166 473 676 1026 -branches -enclosed -sn=1
+select figure at 473 949 8 -branches -sn=1
+select all in 271 473 473 949 -branches -enclosed -sn=1
+select figure at 424 602 8 -branches -sn=1
+delete selection -sn=1
+add instance inv4 192 800 R0 -sn=1
+select figure at 550 919 8 -branches -sn=1
+select all in 105 403 550 919 -branches -enclosed -sn=1
+select figure at 236 574 8 -branches -sn=1
+select figure at 236 574 8 -branches -all -sn=1
+move instance at 192 800 to 192 800 R90 -keepConn -sn=1
+select figure at 564 1136 8 -branches -sn=1
+select all in 26 697 564 1136 -branches -enclosed -sn=1
+move instance at 192 800 to 128 448 R90 -keepConn -sn=1
+add autowire 592 208 144 208 8 -sn=1
+add autowire 592 256 208 256 8 -sn=1
+add autowire 592 304 288 304 8 -sn=1
+add autowire 592 352 336 352 8 -sn=1
+BeginGroup
+add bustap 160 208 160 304 -sn=1
+add wire 160 304 160 448 -sn=1
+name net at 160 376 1 A_in(3) -sn=1
+EndGroup
+BeginGroup
+add bustap 224 256 224 352 -sn=1
+add wire 224 352 224 448 -sn=1
+name net at 224 400 1 A_in(2) -sn=1
+EndGroup
+BeginGroup
+add bustap 288 304 288 400 -sn=1
+add wire 288 400 288 448 -sn=1
+name net at 288 424 1 A_in(1) -sn=1
+EndGroup
+select figure at 334 354 8 -branches -sn=1
+move branchpt at 336 352 to 368 352 -keepConn -sn=1
+BeginGroup
+add bustap 352 304 352 400 -sn=1
+add wire 352 400 352 448 -sn=1
+name net at 352 424 1 A_in(0) -sn=1
+EndGroup
+undo
+BeginGroup
+add bustap 352 304 352 400 -sn=1
+add wire 352 400 352 448 -sn=1
+name net at 352 424 1 A_in(0) -sn=1
+EndGroup
+undo
+move branchpt at 368 352 to 432 352 -keepConn -sn=1
+move branchpt at 432 352 to 352 352 -keepConn -sn=1
+move branchpt at 352 352 to 464 352 -keepConn -sn=1
+add autowire 464 352 464 432 8 -sn=1
+BeginGroup
+add bustap 592 448 496 448 -sn=1
+add wire 496 448 352 448 -sn=1
+name net at 424 448 1 A_in(0) -sn=1
+EndGroup
+select figure at 492 354 8 -branches -sn=1
+select figure at 459 403 8 -branches -sn=1
+select figure at 464 364 8 -branches -sn=1
+select figure at 522 354 8 -branches -sn=1
+select figure at 532 347 8 -branches -sn=1
+select figure at 532 347 8 -branches -all -sn=1
+select figure at 571 347 8 -branches -sn=1
+select figure at 473 438 8 -branches -sn=1
+select figure at 459 375 8 -branches -sn=1
+delete selection -sn=1
+undo
+move branchpt at 464 432 to 464 336 -keepConn -sn=1
+select figure at 464 347 8 -branches -sn=1
+select figure at 520 352 8 -branches -sn=1
+select figure at 520 352 8 -branches -all -sn=1
+move branchpt at 464 336 to 464 352 -keepConn -sn=1
+select all in 466 334 534 343 -branches -enclosed -sn=1
+select figure at 464 350 8 -branches -sn=1
+select figure at 464 347 8 -branches -all -sn=1
+move branchpt at 464 352 to 592 352 -keepConn -sn=1
+select figure at 508 359 8 -branches -sn=1
+select figure at 590 522 8 -branches -sn=1
+move branchpt at 592 528 to 592 464 -keepConn -sn=1
+select figure at 634 672 8 -branches -sn=1
+add autowire 544 752 1008 752 8 -sn=1
+select figure at 898 749 8 -branches -sn=1
+select figure at 898 749 8 -branches -all -sn=1
+set attr NA|XLXN_16|Name value A_inv[3:0] -sn=1
+select figure at 742 756 8 -branches -sn=1
+select figure at 742 756 8 -branches -all -sn=1
+select figure at 891 767 8 -branches -sn=1
+select figure at 896 756 8 -branches -sn=1
+select figure at 896 756 8 -branches -all -sn=1
+move selection by -368 112 -keepConn -sn=1
+move selection by -112 48 -keepConn -sn=1
+BeginGroup
+add bustap 160 912 160 816 -sn=1
+add wire 160 816 160 672 -sn=1
+name net at 160 744 1 A_inv(3) -sn=1
+EndGroup
+BeginGroup
+add bustap 224 912 224 816 -sn=1
+add wire 224 816 224 672 -sn=1
+name net at 224 744 1 A_inv(2) -sn=1
+EndGroup
+BeginGroup
+add bustap 288 912 288 816 -sn=1
+add wire 288 816 288 672 -sn=1
+name net at 288 744 1 A_inv(1) -sn=1
+EndGroup
+BeginGroup
+add bustap 352 912 352 816 -sn=1
+add wire 352 816 352 672 -sn=1
+name net at 352 744 1 A_inv(0) -sn=1
+EndGroup
+add autowire 528 912 1296 768 8 -sn=1
+select figure at 1605 858 8 -branches -sn=1
+select figure at 1696 847 8 -branches -sn=1
+select figure at 1619 861 8 -branches -sn=1
+select figure at 1640 777 8 -branches -sn=1
+add autowire 1616 864 1856 864 8 -sn=1
+select figure at 2162 1073 8 -branches -sn=1
+select figure at 2157 1075 8 -branches -sn=1
+select all in -42 -40 2157 1075 -branches -enclosed -sn=1
+select figure at 184 117 8 -branches -sn=1
+add iomarker 1856 864 0 Unknown Unknown -sn=1
+select figure at 1959 865 8 -branches -sn=1
+select figure at 1959 865 8 -branches -all -sn=1
+set attr NA|XLXN_24|Name value Y[3:0] -sn=1
+select figure at 2052 756 8 -branches -sn=1
+BeginGroup
+add wire 1296 1088 1264 1088 -sn=1
+add iomarker 1264 1088 0 Input Unknown -sn=1
+EndGroup
+BeginGroup
+add wire 1296 1152 1264 1152 -sn=1
+add iomarker 1264 1152 0 Input Unknown -sn=1
+EndGroup
+select figure at 1175 1159 8 -branches -sn=1
+BeginGroup
+add wire 1296 1024 1264 1024 -sn=1
+add iomarker 1264 1024 0 Input Unknown -sn=1
+EndGroup
+select figure at 1208 1029 8 -branches -sn=1
+select figure at 1208 1029 8 -branches -all -sn=1
+set attr NA|XLXN_27|Name value S0 -sn=1
+select figure at 1161 1082 8 -branches -sn=1
+select figure at 1161 1082 8 -branches -all -sn=1
+set attr NA|XLXN_25|Name value S1 -sn=1
+select figure at 1189 1152 8 -branches -sn=1
+select figure at 1189 1152 8 -branches -all -sn=1
+set attr NA|XLXN_26|Name value Enable -sn=1
+add autowire 1632 560 1296 832 8 -sn=1
+add autowire 864 384 864 160 8 -sn=1
+add autowire 864 160 1728 144 8 -sn=1
+add autowire 1728 144 1888 496 8 -sn=1
+add autowire 1248 432 1248 224 8 -sn=1
+add autowire 1248 224 1888 432 8 -sn=1
+add autowire 1232 432 1152 432 8 -sn=1
+add iomarker 1152 432 0 Input Unknown -sn=1
+select figure at 1091 427 8 -branches -sn=1
+select figure at 1096 427 8 -branches -sn=1
+select figure at 1096 427 8 -branches -all -sn=1
+set attr NA|XLXN_30|Name value C_in -sn=1
+select figure at 1742 427 8 -branches -sn=1
+delete selection -sn=1
+undo
+delete selection -sn=1
+select figure at 1024 417 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1889 434 8 -branches -sn=1
+select figure at 2160 823 8 -branches -sn=1
+select figure at 933 1217 8 -branches -sn=1
+add autowire 1872 432 1888 432 8 -sn=1
+select figure at 1882 469 8 -branches -sn=1
+select figure at 1898 352 8 -branches -sn=1
+select figure at 1336 1084 8 -branches -sn=1
+add autowire 1872 432 1872 224 8 -sn=1
+add autowire 1872 224 2544 224 8 -sn=1
+add autowire 2544 240 2528 1312 8 -sn=1
+add autowire 2528 1312 1264 1296 8 -sn=1
+add autowire 1264 1296 1040 1136 8 -sn=1
+select figure at 1231 1077 8 -branches -sn=1
+move iomarker at 1264 1088 to 928 1088 R180 -keepConn -sn=1
+select figure at 1029 1012 8 -branches -sn=1
+add autowire 1040 1136 1040 1088 8 -sn=1
+add instance xor4 624 1376 R0 -sn=1
+add autowire 752 560 752 992 8 -sn=1
+add autowire 752 992 320 992 8 -sn=1
+add autowire 320 992 320 1360 8 -sn=1
+BeginGroup
+add bustap 320 1120 416 1120 -sn=1
+add wire 416 1120 624 1120 -sn=1
+name net at 520 1120 1 B_in(3) -sn=1
+EndGroup
+BeginGroup
+add bustap 320 1184 416 1184 -sn=1
+add wire 416 1184 624 1184 -sn=1
+name net at 520 1184 1 B_in(3) -sn=1
+EndGroup
+undo
+BeginGroup
+add bustap 320 1184 416 1184 -sn=1
+add wire 416 1184 624 1184 -sn=1
+name net at 520 1184 1 B_in(2) -sn=1
+EndGroup
+BeginGroup
+add bustap 320 1248 416 1248 -sn=1
+add wire 416 1248 624 1248 -sn=1
+name net at 520 1248 1 B_in(1) -sn=1
+EndGroup
+BeginGroup
+add bustap 320 1312 416 1312 -sn=1
+add wire 416 1312 624 1312 -sn=1
+name net at 520 1312 1 B_in(0) -sn=1
+EndGroup
+add autowire 1888 560 880 1216 8 -sn=1
+add autowire 2272 560 1296 896 8 -sn=1
+add instance fulladd4 2000 1072 R0 -sn=1
+add autowire 1040 496 2000 976 8 -sn=1
+add autowire 2000 1040 1920 976 8 -sn=1
+add autowire 2384 1040 1296 960 8 -sn=1
+select figure at 2288 142 8 -branches -sn=1
+select figure at 2554 278 8 -branches -sn=1
+select figure at 2537 226 8 -branches -sn=1
+select figure at 2533 250 8 -branches -sn=1
+select figure at 2533 308 8 -branches -sn=1
+select figure at 2544 222 8 -branches -sn=1
+select figure at 2549 201 8 -branches -sn=1
+select figure at 2558 168 8 -branches -sn=1
+select figure at 2544 229 8 -branches -sn=1
+select figure at 2544 229 8 -branches -all -sn=1
+move branchpt at 2544 224 to 2512 224 -keepConn -sn=1
+select figure at 2537 194 8 -branches -sn=1
+add autowire 2512 224 2544 240 8 -sn=1
+select figure at 208 250 8 -branches -sn=1
+select figure at 287 119 8 -branches -sn=1
+select figure at 271 280 8 -branches -sn=1
+select all in 173 231 271 280 -branches -enclosed -sn=1
+select figure at 315 282 8 -branches -sn=1
+select figure at 133 201 8 -branches -sn=1
+select figure at 170 229 8 -branches -sn=1
+select figure at 222 261 8 -branches -sn=1
+select figure at 280 315 8 -branches -sn=1
+select figure at 599 445 8 -branches -sn=1
+select figure at 648 665 8 -branches -sn=1
+BeginGroup
+add wire 1248 432 1216 432 -sn=1
+add iomarker 1216 432 0 Input Unknown -sn=1
+EndGroup
+select figure at 1157 438 8 -branches -sn=1
+select figure at 1159 436 8 -branches -all -sn=1
+set attr NA|XLXN_42|Name value C_inaddition -sn=1
+BeginGroup
+add wire 1632 432 1664 432 -sn=1
+add iomarker 1664 432 0 Output Unknown -sn=1
+EndGroup
+select figure at 1744 436 8 -branches -sn=1
+select figure at 1744 436 8 -branches -all -sn=1
+set attr NA|XLXN_43|Name value C_outaddition -sn=1
+add autowire 1232 432 2000 912 8 -sn=1
+add autowire 2384 912 2272 432 8 -sn=1
+add autowire 2320 432 2320 352 8 -sn=1
+add autowire 2320 352 1616 368 8 -sn=1
+add autowire 2384 528 2416 528 8 -sn=1
+select figure at 2400 490 8 -branches -sn=1
+delete selection -sn=1
+select figure at 1784 424 8 -branches -sn=1
+select figure at 1817 394 8 -branches -sn=1
+undo
+undo
+undo
+select figure at 1800 436 8 -branches -sn=1
+select figure at 1726 441 8 -branches -sn=1
+delete selection -sn=1
+select figure at 2388 604 8 -branches -sn=1
+select figure at 2400 599 8 -branches -sn=1
+delete selection -sn=1
+select figure at 2398 513 8 -branches -sn=1
+select figure at 2439 574 8 -branches -sn=1
+select all in 2339 487 2439 574 -branches -enclosed -sn=1
+delete selection -sn=1
+select figure at 1663 422 8 -branches -sn=1
+select figure at 1658 429 8 -branches -sn=1
+select figure at 1621 434 8 -branches -sn=1
+select figure at 1658 431 8 -branches -sn=1
+select figure at 1612 434 8 -branches -sn=1
+select figure at 1647 436 8 -branches -sn=1
+select figure at 1609 436 8 -branches -sn=1
+select figure at 1831 119 8 -branches -sn=1
+select figure at 1234 371 8 -branches -sn=1

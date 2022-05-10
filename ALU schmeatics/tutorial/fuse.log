@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/elmal/tutorial/ALU_ALU_sch_tb_isim_beh.exe -prj C:/Users/elmal/tutorial/ALU_ALU_sch_tb_beh.prj work.ALU_ALU_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/elmal/tutorial/fulladd.vf" into library work
+Analyzing Verilog file "C:/Users/elmal/tutorial/mux4to4.vf" into library work
+Analyzing Verilog file "C:/Users/elmal/tutorial/fulladd4.vf" into library work
+Analyzing Verilog file "C:/Users/elmal/tutorial/ALU.vf" into library work
+Analyzing Verilog file "C:/Users/elmal/tutorial/ALU_testbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module AND2
+Compiling module XOR2
+Compiling module OR2
+Compiling module fulladd_MUSER_ALU
+Compiling module fulladd4_MUSER_ALU
+Compiling module INV4_HXILINX_ALU
+Compiling module M4_1E_HXILINX_ALU
+Compiling module mux4to4_MUSER_ALU
+Compiling module ALU
+Compiling module ALU_ALU_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 Verilog Units
+Built simulation executable C:/Users/elmal/tutorial/ALU_ALU_sch_tb_isim_beh.exe
+Fuse Memory Usage: 28212 KB
+Fuse CPU Usage: 578 ms

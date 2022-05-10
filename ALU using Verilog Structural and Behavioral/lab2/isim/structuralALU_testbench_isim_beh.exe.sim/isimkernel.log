@@ -1,0 +1,29 @@
+Command line:
+   structuralALU_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56203
+
+Sat Feb 05 13:40:10 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150 Meg
+
+ Total Signals          : 133
+ Total Nets             : 63
+ Total Signal Drivers   : 28
+ Total Blocks           : 26
+ Total Primitive Blocks : 19
+ Total Processes        : 30
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 157
+Total Line Count : 80
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 4678.14 Meg
+
+Sat Feb 05 13:43:28 2022
+

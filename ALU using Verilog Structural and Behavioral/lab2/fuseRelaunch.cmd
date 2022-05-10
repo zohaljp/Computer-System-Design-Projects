@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/elmal/lab2/behavioraltestbench_isim_beh.exe" -prj "C:/Users/elmal/lab2/behavioraltestbench_beh.prj" "work.behavioraltestbench" "work.glbl" 
